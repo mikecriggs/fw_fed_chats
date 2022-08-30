@@ -1,0 +1,85 @@
+RULES FOR ANDROID BUILDER'S HELP
+Last updated: July 23, 2022
+
+
+
+THESE RULES ARE NON-NEGOTIABLE.
+FAILURE TO COMPLY MAY RESULT IN A WARNING BY AN ADMIN (3 WILL BAN YOU) OR AN IMMEDIATE BAN.
+ALL ADMINS MAY WARN/BAN AT THEIR OWN DISCRETION AS LONG AS THEIR REASONING FALLS WITHIN THE SCOPE OF THESE RULES.
+A BAN HERE MAY RESULT IN A BAN IN OUR RELATED CHATS (OFF-TOPIC, LINUX KERNEL BRICKERS, BRINGUP/FW, ETC)
+
+
+
+1) General Rules:
+
+- English only!
+- User bots and duplicate accounts are forbidden.
+- Be respectful to everyone.
+- Off-topic and general discussion need to be conducted in our designated OT chat here: https://t.me/AndroidBuildingOT
+- Do not share ANY NSFW content in this nor the off-topic chat or you are subject to an immediate ban.
+- A ban in here means a possible ban in all related chats and vice-versa (off-topic, bringup, firmware, kernel, etc).
+- There is a zero tolerance policy for piracy, spam, solicitation, hate speech, and harassment.
+- Do not PM or tag anyone in this chat without their prior consent.
+- Do not "bump" (repost or quote) your issue(s) for at least 24 hours.
+- Set an avatar and/or username or you may be removed from the chat. 
+  If you do not do this, we may assume that you are a spam bot. If you are accidentally removed,
+  you can rejoin here: https://t.me/AndroidBuildersHelp
+
+
+
+2) We will not help with any of the following:
+
+- Android applications (this chat is only for ROM compilation help)
+- Android versions below 9 (Pie)
+- Making your own ROM
+- Building or fixing broken ROMs
+- Adding features or etc to a ROM
+- Debugging your device after it compiles (help for that is here: https://t.me/androidbringup)
+- Building or debugging a standalone kernel (help for that is here: ttps://t.me/LinuxKernelNewbies)
+- If you are building as the root user (don't ever build as root)
+- You have not tried to help yourself and shown us what you have done to do so
+
+
+
+3) Error Template Rules: All issues are to be submitted via our build error template
+   (use the #errortemplate command to get it from the bot)
+
+- We need to know what ROM you are building, provide the ROM's GitHub organization so we can see if your issues are
+  ROM-side or device-side
+
+- Make sure that you upload or fork all device related repos that you are modifying to your own GitHub and provide
+  only those in the template.
+  (All of your current changed must be pushed to these trees)
+  This includes device, common device (if applicable), kernel, vendor, and any ROM-side repos that you have to edit
+  IE: HAL trees, ROM vendor, ROM manifest, etc.
+  We also need to know what branch(es) you are using.
+
+- If you are having issues understanding this, then use the #weneedyourrepos command for a guide on how to properly
+  clone and upload repositories to your own GitHub account.
+- Make sure to maintain all authorship if possible! (see the #authorship command for more information)
+
+- All logs must be submitted via nekob.in, hastebin.com, or gist.github.com. We will not accept pastebin.com links.
+- When sharing your logs, only your errors are relevant.
+  Copy everything from your first "FAILED:" to the end of your log and provide ONLY that unless specifically asked otherwise. 
+  To learn how to properly log your builds, use the #buildlogs command.
+ 
+- You MUST show how you have tried to help yourself before posting here. 
+  We will not accept answers akin to "idk" or "I didn't see it on Google"
+
+
+Resources:
+- stackoverflow.com
+- google.com
+- github.com
+- The Gerrit Reviews of ROM organizations (IE: review.carbonrom.org, review.lineageos.org)
+
+Use the /notes command to see saved messages, documentation, guides, other chats, and more useful information that will help you.
+
+NOTE: We are not your teachers and will not help you if you have not tried to helped yourself.
+- No issue is unique and someone has had it before.
+- Read your errors! They tell you exactly what to do and/or exactly what is wrong 95%+ of the time.
+- Don't know how to solve your error? Go back to the basics for a bit and brush up on the coding language(s) 
+  you may be having issues with.
+
+"Give a man a fish and he'll eat for a day. Teach a man to fish and he'll eat for life".
+We want to point you in the right direction without spoon feeding you answers so you can learn how to solve problems on your own.
