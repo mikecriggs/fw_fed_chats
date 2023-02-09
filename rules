@@ -8,6 +8,11 @@ FAILURE TO COMPLY MAY RESULT IN A WARNING BY AN ADMIN (3 WILL BAN YOU) OR AN IMM
 ALL ADMINS MAY WARN/BAN AT THEIR OWN DISCRETION AS LONG AS THEIR REASONING FALLS WITHIN THE SCOPE OF THESE RULES.
 A BAN HERE MAY RESULT IN A BAN IN OUR RELATED CHATS (OFF-TOPIC, LINUX KERNEL BRICKERS, BRINGUP/FW, ETC)
 
+CHATS:
+- ROM compilation/building: https://t.me/AndroidBuildersHelp
+- ROM debugging/FW/Bringup: https://t.me/androidbringup
+- Kernel: https://t.me/LinuxKernelNewbies
+- TWRP: https://t.me/build_twrp
 
 
 1) General Rules:
@@ -24,7 +29,7 @@ A BAN HERE MAY RESULT IN A BAN IN OUR RELATED CHATS (OFF-TOPIC, LINUX KERNEL BRI
 - Do not "bump" (repost or quote) your issue(s) for at least 24 hours.
 - Set an avatar and/or username or you may be removed from the chat. 
   If you do not do this, we may assume that you are a spam bot. If you are accidentally removed,
-  you can rejoin here: https://t.me/AndroidBuildersHelp
+  you can rejoin here: https://github.com/mikecriggs/fw_fed_chats/blob/master/chats
 
 
 
@@ -32,25 +37,26 @@ A BAN HERE MAY RESULT IN A BAN IN OUR RELATED CHATS (OFF-TOPIC, LINUX KERNEL BRI
 
 - Android applications (this chat is only for ROM compilation help)
 - Android versions below 11 (R)
+- The newest version of Android for the first 3 to 6 months after its release (we will announce support when we allow it)
+- Pre-release versions of Android (alphas, betas, etc)
 - Making your own ROM
 - Building or fixing broken ROMs
 - Adding features or etc to a ROM
-- Debugging your device after it compiles (help for that is here: https://t.me/androidbringup)
-- Building or debugging a standalone kernel (help for that is here: ttps://t.me/LinuxKernelNewbies)
 - If you are building as the root user (don't ever build as root)
 - You have not tried to help yourself and shown us what you have done to do so
 
 
 
-3) Error Template Rules: All issues are to be submitted via our build error template
-   (use the #errortemplate command to get it from the bot)
+3) Error Template Rules:
+   All issues are to be submitted via our build error template
+   Use the #errortemplate command to get it from the bot
 
-- We need to know what ROM you are building, provide the ROM's GitHub organization so we can see if your issues are
-  ROM-side or device-side
+- We need to know what ROM you are building/debugging, provide the ROM's GitHub organization in your template so we can 
+  see if your issues are ROM-side or device-side
 
 - Make sure that you upload or fork all device related repos that you are modifying to your own GitHub and provide
   only those in the template.
-  (All of your current changed must be pushed to these trees)
+  All of your current changed must be pushed to these trees!
   This includes device, common device (if applicable), kernel, vendor, and any ROM-side repos that you have to edit
   IE: HAL trees, ROM vendor, ROM manifest, etc.
   We also need to know what branch(es) you are using.
@@ -60,10 +66,10 @@ A BAN HERE MAY RESULT IN A BAN IN OUR RELATED CHATS (OFF-TOPIC, LINUX KERNEL BRI
 - Make sure to maintain all authorship if possible! (see the #authorship command for more information)
 
 - All logs must be submitted via nekob.in, hastebin.com, or gist.github.com. We will not accept pastebin.com links.
-- When sharing your logs, only your errors are relevant.
+- When sharing your building logs, only your errors are relevant.
   Copy everything from your first "FAILED:" to the end of your log and provide ONLY that unless specifically asked otherwise. 
   To learn how to properly log your builds, use the #buildlogs command.
- 
+
 - You MUST show how you have tried to help yourself before posting here. 
   We will not accept answers akin to "idk" or "I didn't see it on Google"
 

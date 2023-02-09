@@ -1,0 +1,68 @@
+FW FED Error Template
+
+IMPORTANT NOTE:
+ALL REPOS LINKED MUST BE FROM YOUR GITHUB AND ALL CURRENT CHANGES MUST BE PUSHED!
+IF YOU NEED HELP WITH THIS, PLEASE USE THE #weneedyourrepos COMMAND FOR HELP FROM
+THE BOT
+
+
+Device Model Number: <IE: G025N>
+
+Device Shipping Name: <IE: GOOGLE PIXEL 4A>
+
+Device Codename: <IE: SUNFISH>
+
+Stock Android Version: <OEM ANDROID VERSION>
+
+Android Version You Are Building: <VERSION OF ANDROID THAT YOU ARE BUILDING>
+                                  <ANDROID VERSIONS 11 AND BELOW ARE NOT SUPPORTED>
+
+ROM Your Are Building: <ROM NAME>
+
+ROM Github Organization: <LINK TO THEIR GITHUB ORGANIZATION>
+
+Device Repo: <THIS MUST BE FROM YOUR OWN GITHUB WITH ALL CURRENT CHANGES PUSHED>
+             <BRANCH YOU ARE USING>
+
+Kernel Repo: <THIS MUST BE FROM YOUR OWN GITHUB WITH ALL CURRENT CHANGES PUSHED>
+             <BRANCH YOU ARE USING>
+
+Vendor Repo: <THIS MUST BE FROM YOUR OWN GITHUB WITH ALL CURRENT CHANGES PUSHED>
+             <BRANCH YOU ARE USING>
+
+Other Repos: <MANIFESTS, HAL TREES, COMMON REPOS, & ETC>
+             <THESE MUST BE FROM YOUR OWN GITHUB WITH ALL CURRENT CHANGES PUSHED>
+             <BRANCH(ES) YOU ARE USING>
+             <MANIFESTS, HAL TREES, COMMON REPOS, & ETC>
+
+List Of Things You Have Tried To Do To Try And Resolve This Error: <IF THIS IS EMPTY, YOU WILL NOT BE HELPED. YOU MUST TRY TO RESOLVE YOUR ISSUE(S) ON YOUR OWN
+                                                                    BEFORE YOU ASK FOR HELP HERE. SHOW YOUR WORK. THIS IS NON-NEGOTIABLE.>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-BLANK TEMPLATE FOR YOU TO USE-
+
+
+Device Model #: 
+
+Device Shipping Name: 
+
+Device Codename: 
+
+Stock Android Version: 
+
+Android Version You Are Building: 
+
+ROM You Are Building: 
+
+ROM Github Organization: 
+
+Device Repo: 
+
+Kernel Repo: 
+
+Vendor Repo: 
+
+Other Repos: 
+
+List Of Things You Have Tried To Do To Try And Resolve This Error: 
